@@ -1,0 +1,52 @@
+{
+  "name": "bond_calculator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "package for basic calculation mortgage",
+  "keywords": [
+    "bond",
+    "calculator",
+    "loan",
+    "finance"
+  ],
+  "author": "Melusi Khumalo",
+  "homepage": "https://github.com/melusi-k/bond_calculator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/melusi-k/bond_calculator"
+  },
+  "bugs": {
+    "url": "https://github.com/melusi-k/bond_calculator/issues",
+    "email": "melusi.l.k@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
