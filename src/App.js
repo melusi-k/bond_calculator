@@ -17,7 +17,7 @@ function App(props) { return ( <div className="App">
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
-  <div className="collapse navbar-expanded" id="navbarNavAltMarkup">
+  <div className="collapse navbar-collapsed" id="navbarNavAltMarkup">
     <div className="navbar-nav">
       <a className="nav-item nav-link active" href="#Home">Home<span className="sr-only">(current)</span></a>
       <a className="nav-item nav-link" href="#History">History</a>
