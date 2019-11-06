@@ -13,23 +13,23 @@ var personalTaxRate = 42;
 function App(props) { return ( <div className="App">
 
 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-  <a className="navbar-brand" href="#">Navbar</a>
+  <a className="navbar-brand" href="#">Bond Calculator</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
   <div className="collapse navbar-expanded" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      <a className="nav-item nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
-      <a className="nav-item nav-link" href="#">History</a>
-      <a className="nav-item nav-link" href="#">Results</a>
+      <a className="nav-item nav-link active" href="#Home">Home<span className="sr-only">(current)</span></a>
+      <a className="nav-item nav-link" href="#History">History</a>
+      <a className="nav-item nav-link" href="#Results">Results</a>
     </div>
   </div>
 </nav>
 
 
-<form className="needs-validation" noValidate padding="10px">
+<form id="#Home"className="needs-validation" noValidate>
  <header
-className="App-header"> <img src={logo} className="App-logo" alt="logo" />
+className="App-header"> 
  <div
 className="input-group input-group-sm mb-3"> <div className="input-group-prepend"> <span
 className="input-group-text">R</span> </div> <input type="text"
