@@ -28,8 +28,7 @@ function App(props) { return ( <div className="App">
 
 
 <form id="#Home"className="needs-validation" noValidate>
- <header
-className="App-header"> 
+ <header className="App-header container">
  <div
 className="input-group input-group-sm mb-3"> <div className="input-group-prepend"> <span
 className="input-group-text">R</span> </div> <input type="text"
